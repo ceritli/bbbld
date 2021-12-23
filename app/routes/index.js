@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const bbburl = "https://pagis.e-yonetim.com/";
+const bbburl = "https://bbb.yourdomain.com/";
 
 router.get('/', function (req, res) {
 
