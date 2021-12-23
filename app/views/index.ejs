@@ -1,0 +1,42 @@
+<div class="card">
+    <div class="card-header py-3">
+        <h4 class="m-0 font-weight-bold text-primary">Sessions Registered to the System</h4>
+    </div>
+    <div class="card-body">
+
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th></th>
+                <th>Folder Name</th>
+                <th>Created Date</th>
+                <th>Settings</th>
+            </tr>
+            </thead>
+            <tbody>
+            <%
+            if (sonuc.length > 0){
+            sonuc.forEach(function (sonuc) {
+            %>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td><%= sonuc.name %></td>
+                    <td><%=sonuc.date%></td>
+                    <td>
+<!--                        <a href="/site/<%= sonuc.id %>" class="btn btn-info">Getir</a>-->
+                        <a href="/<%= sonuc.name %>" class="btn btn-info" target="_blank">View File</a>
+                        <a href="/json/<%= sonuc.name %>" class="btn btn-primary" target="_blank">Go to File</a>
+                        <a href="/lb/<%= sonuc.name %>" class="btn btn-success" target="_blank">Learning Dashboard</a>
+                    </td>
+                </tr>
+            <%
+            })
+            }
+            %>
+            </tbody>
+        </table>
+
+    </div>
+</div>
