@@ -1,8 +1,6 @@
 # bbbld
 Big Blue Button Learning Dashboard Monitoring System
 
-Welcome to the bbbld wiki!
-
 This repository is made for the Big blue button Learning Dashboard.
 
 The aim here is to facilitate access to the learning dashboard files from third party software and to access the json file without using an API.
