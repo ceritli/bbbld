@@ -21,4 +21,4 @@ Maybe a development that automatically transfers to MySql can be considered in t
 
 stay well
 
-!(public/Big-Blue-Button-Learning-Dashboard-Monitoring-System.png)
+![Preview](/public/Big-Blue-Button-Learning-Dashboard-Monitoring-System.png)
