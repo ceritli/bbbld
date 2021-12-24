@@ -20,3 +20,5 @@ If you would like to contribute to the project, we would be very happy.
 Maybe a development that automatically transfers to MySql can be considered in the future.
 
 stay well
+
+!(public/Big-Blue-Button-Learning-Dashboard-Monitoring-System.png)
