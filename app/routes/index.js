@@ -31,7 +31,7 @@ router.get('/', function (req, res) {
             });
             let sortedFolderList = folderList.sort((a,b) => Date.parse(b.date) - Date.parse(a.date));
             
-            res.render("index",{sonuc : sortedFolderList});
+            res.render("index",{sonuc : sortedFolderList,url:bbburl});
         }else{
             res.write("<h1>There is no content in the folder</h1>");
         }
